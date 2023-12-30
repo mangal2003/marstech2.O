@@ -1,0 +1,41 @@
+#partition {
+  background-color: rgb(68, 66, 66);
+  color: rgb(0, 255, 0);
+  margin: 1.5rem 0 1.5rem 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 426px) {
+  #partition {
+    margin: 1.5rem 0 1rem 0;
+  }
+}
+.line {
+  height: 1.5rem;
+}
+.nameText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  animation: blink 2.4s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+    color: rgb(251, 255, 0);
+  }
+  25% {
+    opacity: 1;
+    color: rgb(226, 44, 44);
+  }
+  50% {
+    opacity: 0;
+    color: rgb(255, 0, 234);
+  }
+  75% {
+    opacity: 1;
+    color: blue;
+  }
+}

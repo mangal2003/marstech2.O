@@ -1,0 +1,17 @@
+#navbar {
+  height: 3rem;
+  background-color: rgb(73, 72, 72);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  z-index: 5;
+
+  overflow: hidden;
+}
+.title {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
