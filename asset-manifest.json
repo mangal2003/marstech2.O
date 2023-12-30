@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/marstech2.O/static/css/main.7738f031.css",
+    "main.js": "/marstech2.O/static/js/main.19cd2167.js",
+    "static/js/787.d29c1ced.chunk.js": "/marstech2.O/static/js/787.d29c1ced.chunk.js",
+    "static/media/deepDive.gif": "/marstech2.O/static/media/deepDive.bb40340f165929162262.gif",
+    "static/media/imgtop.gif": "/marstech2.O/static/media/imgtop.18f0fc82d634e1e3e35c.gif",
+    "static/media/deepDiver.gif": "/marstech2.O/static/media/deepDiver.af8c5fc8f2ed7f0eb68d.gif",
+    "static/media/image2.webp": "/marstech2.O/static/media/image2.cc489bae9d9d14f78059.webp",
+    "index.html": "/marstech2.O/index.html",
+    "main.7738f031.css.map": "/marstech2.O/static/css/main.7738f031.css.map",
+    "main.19cd2167.js.map": "/marstech2.O/static/js/main.19cd2167.js.map",
+    "787.d29c1ced.chunk.js.map": "/marstech2.O/static/js/787.d29c1ced.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7738f031.css",
+    "static/js/main.19cd2167.js"
+  ]
+}
