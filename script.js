@@ -12,7 +12,7 @@ function showList() {
   cross.style.display = "block";
 }
 function showListReverse() {
-  menuItems.style.top = "-4rem";
+  menuItems.style.top = "-5rem";
   cross.style.display = "none";
   menulines.style.display = "block";
 }
