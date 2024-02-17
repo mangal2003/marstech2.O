@@ -5,7 +5,7 @@ var menuItems = document.getElementById("listOfSubSec");
 var menulines = document.getElementById("menulines");
 var cross = document.getElementById("cross");
 var content = document.getElementById("mainContainer");
-
+var listWeek = document.getElementsByClassName("listWeek");
 function showList() {
   menuItems.style.top = "3rem";
   menulines.style.display = "none";
@@ -34,4 +34,11 @@ function homeOnly() {
   triFri.style.display = "none";
   sheet.style.display = "none";
   showListReverse();
+}
+function weekFull(weekNumber) {
+  var list = document.getElementById(`listweek${weekNumber}`);
+  list.style.display = "block";
+  setTimeout(() => {
+    list.style.display = "none";
+  }, 4000);
 }
