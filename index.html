@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarsTech - Officially Unofficial</title>
+    <title>MarsTech- Officially Unofficial</title>
     <meta name="description"
         content="MarsTech: Where innovation meets passion, and together, we create a universe of possibilities!">
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 
 <body>
     <section id="navbar">
-        <div class="title">MarsTech</div>
+        <div class="title">MarsTech </div>
         <div id="menu">
             <i class="ri-menu-fill" id="menulines" onclick="showList()"></i>
             <i class="ri-close-fill" id="cross" onclick="showListReverse()"></i>
@@ -191,13 +191,20 @@
         <br />
     </div>
     <div id="tri-fri">
-        <div id="partition">
-            <div class="line">
-                =============================================================================================================================================================================================================
-            </div>
-            <div class="nameText">T R I - F R I</div>
-            <div class="line">
-                =============================================================================================================================================================================================================
+        <h2 id="trifriHead">TRI-FRI</h2>
+        <div id="weekWrapper">
+            <div id="week1" class="weeks">
+                <div class="head" onclick="weekFull(1)"> week - 1
+                    <div id="listweek1" class="listweeks">
+                        <div id="ques1" class="questions"><a href="https://leetcode.com/problems/power-of-two/">Power of
+                                Two</a></div>
+                        <div id="ques2" class="questions"><a href="https://leetcode.com/problems/sqrtx/">Square Root</a>
+                        </div>
+                        <div id="ques3" class="questions"><a
+                                href="https://leetcode.com/problems/palindrome-number/">Palindrome
+                                Number</a></div>
+                    </div>
+                </div>
             </div>
         </div>
         <p id="about-tri-fri">
@@ -229,6 +236,8 @@
                 boundaries, and unlock the endless possibilities of code together with <b>Tri-Fri!</b>
             </span>
         </p>
+
+    </div>
     </div>
     <div id="footer">&copy; MarsTech 2024 | All Rights Reserved</div>
     <script src="script.js"></script>
